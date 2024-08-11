@@ -3,7 +3,7 @@ import '../components/css/Heading.css';
 import f3 from '../assets/img/f3.webp';
 import v1 from '../assets/img/v1.png';
 import v2 from '../assets/img/v2.png';
-import '../../public/nikhil.pdf';
+import '../../public/resume.pdf';
 import me from '../assets/me.png';
 const Heading = () => {
   const handleDownload = () => {
