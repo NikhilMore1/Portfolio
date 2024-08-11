@@ -13,7 +13,7 @@ const Heading = () => {
     link.click();
   };
   return (
-    <div>
+    <div> 
       <div className='mt-3 ro1' >
         <h4 style={{fontSize:'40px',textTransform:'uppercase',letterSpacing:'2px',fontWeight:'bold'}}><marquee behavior="right" direction="left">welcome to my Portfolio ✌️</marquee></h4>
       </div>
