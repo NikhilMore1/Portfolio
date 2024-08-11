@@ -9,7 +9,7 @@ const Heading = () => {
   const handleDownload = () => {
     const link = document.createElement('a');
     link.href = `../../public/resume.pdf`; // Adjust the path to your PDF file
-    link.download = 'sample.pdf'; // The filename for the downloaded PDF
+    link.download = 'sampless.pdf'; // The filename for the downloaded PDF
     link.click();
   };
   return (
