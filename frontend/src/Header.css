@@ -1,0 +1,40 @@
+*{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navs .nav-link{
+    font-size: 20px;
+    transition: 1s;
+    font-weight: bold;
+ 
+
+}
+.navs .nav-link:hover{
+    color: aqua;
+    font-size: 23px;
+    border: 0.3px dotted aqua;
+}
+
+  @keyframes colorchange{
+    0%{
+        color: black;
+    }
+    25%{
+        color: rgb(83, 126, 148);
+    }
+    50%{
+        color: aqua;
+    }
+    75%{
+        color: rgb(208, 234, 39);
+    }
+    100%{
+        color: rgb(91, 82, 82);
+    }
+  }
+  .navs .navbar-brand {
+    animation: colorchange 2s infinite;
+    font-size: 1.5rem;  /* Adjust font size */
+    font-weight: bold;  /* Adjust font weight */
+    text-transform: uppercase;  /* Uppercase text */
+    transition: color 0.3s ease;  /* Smooth transition for color change */
+  }

@@ -1,0 +1,94 @@
+
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.ro1{
+    background-image: linear-gradient(aqua,wheat);
+
+}
+.full{
+    height: 90vh;
+}
+.co1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:45px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+@keyframes btn-color{
+    0%{
+        background-color: white;
+        box-shadow: 4px 4px rgb(141, 141, 223);
+        height: 40px;
+        
+    }
+    25%{
+        background-color: rgb(124, 229, 229);
+        box-shadow: 7px 7px blueviolet;
+        height: 50px;
+        
+    }
+    50%{
+        background-color: aqua;
+        box-shadow: 9px 10px blue;
+        height: 55px;
+        
+    }
+    75%{
+        background-color: aqua;
+        box-shadow: 10px 11px blue;
+        height: 50px;
+        
+        
+
+    }
+    100%{
+        background-color: aqua;
+        box-shadow: 10px 12px blue;
+        height: 45px;
+    }
+}
+.row .col-lg-6 .bt{
+    border: 1px solid black;
+    font-weight: bold;
+    animation: btn-color infinite 3s;
+    transition: 1s;
+}
+.row .col-md-6 .bt:hover{
+    
+    color: white;
+
+
+}
+.co2{
+   
+    margin-right: 3rem;
+}
+
+#skills {
+    background: linear-gradient(45deg, #c9f1ed, #75d4d9, #26b6e5, #2cd2c7);
+    background-size: 400% 400%;
+    animation: gradientAnimation 5s ease infinite;
+    padding: 50px;
+  }
+  
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .co1 {
+    font-size: 40px;
+  }
+
+  
+  
