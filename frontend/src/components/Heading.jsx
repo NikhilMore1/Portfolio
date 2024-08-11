@@ -8,7 +8,7 @@ import me from '../assets/me.png';
 const Heading = () => {
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = `../../public/nikhil.pdf`; // Adjust the path to your PDF file
+    link.href = `../../public/resume.pdf`; // Adjust the path to your PDF file
     link.download = 'sample.pdf'; // The filename for the downloaded PDF
     link.click();
   };
